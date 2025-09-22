@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #333;
+    width: 100vw;
+    align-content: center;
+    height: 100vh;
+}
+
+form{
+    margin: 0px auto;
+    width: 400px;
+    background-color: #333;
+    box-shadow: 0px 0px 30px 0px #00c3ff;
+    border-radius: 20px;
+    padding: 30px;
+    border: 10px solid #00c3ff;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.cyan{
+    font-size: 2rem;
+    color: #00c3ff;
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background: transparent;
+    border:none ;
+    border-bottom: 2px solid #00c3ff;
+    outline: none;
+    margin: 20px 5px;
+    color: #fff;
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #00c3ff;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #333;
+    margin-top:40px ;
+    border: 3px solid #00c3ff;
+}
+
+a{
+    color: #fff;
+    font-size: 0.75rem;
+    
+}
+
+button:hover{
+    color: #fff;
+    background-color: #00c3ff;
+    box-shadow: 0px 0px 20px 0px #00c3ff;
+    transition: 0.2s ease all;
+}
+
+span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-left: auto;
+    margin-right: 0px;
+
+}
