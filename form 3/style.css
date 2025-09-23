@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg,#178800,#09ff00);
+    align-content: center;
+}
+
+form{
+    background-color: #333;
+    padding: 20px ;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0px auto;
+}
+
+h2{
+    color: #fff;
+    border-bottom: 2px solid #09ff00;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name .div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+}
+
+.name span{
+    font-size: 0.75rem;
+    color: #09ff00;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.password span{
+    font-size: 0.75rem;
+    color: #09ff00;
+    margin-left: 21px;
+    margin-right: auto;
+}
+
+#EmailError{
+    font-size: 0.75rem;
+    color: #09ff00;
+    margin-left: 21px ;
+    margin-right: auto;
+}
+
+.name input{
+    width: 100%;
+    margin: 0px 0px ;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.email{
+    display: flex;
+    margin-top:20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.email span{
+    background-color: #999;
+    padding: 10px 20px ;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.email input{
+    padding: 10px 20px ;
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    outline: none;
+}
+
+#Password{
+    
+    margin: 20px 10px 10px 10px  ;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#confirmPassword{
+    
+    margin: 20px 10px 10px 10px ;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 96.5%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 20px ;
+    border: none;
+    background-color: #09ff00;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+#sign{
+    color: #fff;
+    font-size: 0.9rem;
+    margin-left: 125px;
+}
+
+#sign a{
+    color: #0084ff;
+}
