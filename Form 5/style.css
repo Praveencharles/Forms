@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #f0f2f5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 35px;
+}
+
+.container{
+    width: 1000px;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #fff;
+    min-height: 300px;
+    padding: 30px 30px ;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 5px rgb(224, 224, 224) ;
+}
+
+input{
+    width: 100%;
+    height: 53px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Login{
+    width: 100%;
+    height: 53px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0079c9;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px 0px;
+}
+
+.Account{
+    height: 53px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #21c900;
+}
+
+input:focus{
+    border-color: #0079c9;
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-weight: 550;
+    color: #aaa;
+}
+
+.Login:hover{
+    background-color: #0161a1;
+    transition: 0.2s ease all;
+}
+
+.Account:hover{
+    background-color: #1ca700;
+    transition: 0.2s ease all;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text h1{
+    font-size: 4rem;
+    color: #0079c9;
+}
+
+.text p{
+    color: #333;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+@media (max-width:900) {
+    body{
+        padding: 15px;
+    }
+    .text h1{
+        font-size: 3rem;
+    }
+    .text p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:700px) {
+    .main{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 2.5rem;
+    }
+    .text p{
+        font-size: 1.2rem;
+    }
+}
