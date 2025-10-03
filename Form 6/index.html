@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Form series => Form 6 -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+  <form>
+    <h2>@ Dental</h2>
+    <div class="group">
+      <label for="user">Patient Name</label>
+      <input type="text" name="User" id="user" placeholder="Enter your name" required>
+    </div>
+    <div class="group">
+      <label for="mail">Email</label>
+      <input type="email" name="Email" id="mail" placeholder="Enter your E-mail" required>
+    </div>
+    <hr>
+    <div class="appointment">
+      <p>Fix the appoiintment Date and Time</p>
+      <div class="DT">
+         <div class="group">
+      <label for="date">Date :</label>
+      <input type="date" name="Date" id="date" required>
+    </div>
+    <div class="group">
+      <label for="time">Time :</label>
+      <input type="time" name="Time" id="time" required>
+    </div>
+      </div>
+    </div>
+    <hr>
+    <p>I agree all terms and conditions about the clinic and appling appointment in online. I have read all the rules and conditions. And I agree the all terms and policy</p>
+    <div class="check">
+    <input type="checkbox" id="check" required>
+    <label for="check">I agree !</label>
+    </div>
+    <hr>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
